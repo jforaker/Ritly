@@ -1,7 +1,6 @@
 
 <% @url.each do |x| %>
 	<h1>Your code is: <%= x.hash_code %></h1>
-<h1>Your link is: <%= x.link %></h1>
 	<h3> Go to <a href="/<%= x.hash_code %>/preview">localhost:3000/<%= x.hash_code %></a> to visit your URL.</h3>
 
 <% end %>

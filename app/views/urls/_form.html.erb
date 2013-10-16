@@ -1,7 +1,8 @@
-<%= form_for @url do |m| %>
-    <%= m.label :link %>
-    <%= m.text_field :link %><br>
-    <%= m.submit  %>
-
-    <!-- TODO- update form for rating -->
+<%= form_tag(controller: "urls", action: "create", method: "post") do  %>
+    <%= label_tag(:link, "link:") %>
+    <%= text_field_tag(:link) %><br>
+    <%= submit_tag("create link")  %>
 <% end %>
+
+<!-- problem before was by default the action was "new", sending it to the wong method in the controller,
+had to explicitly tell the form to route it to "create" method -->

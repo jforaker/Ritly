@@ -21,8 +21,6 @@ class UrlsController < ApplicationController
   end
 
   def preview
-
   	@url = Url.get_link(params[:link])
-
   end
 end
