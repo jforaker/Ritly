@@ -1,4 +1,4 @@
 
-<% @url.each do |x| %>
+<% @url.each_with_index do |x| %>
 	<h1>Your preview is: <%= x.link %></h1>
 <% end %>
