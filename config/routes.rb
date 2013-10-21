@@ -1,5 +1,6 @@
 Ritly::Application.routes.draw do
 
+  devise_for :users
   root 'urls#new'
 
   resources :urls , :only => [:new, :create, :show]

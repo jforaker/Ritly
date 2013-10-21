@@ -1,4 +1,8 @@
 class UrlsController < ApplicationController
+  
+before_filter :authenticate_user!
+
+
   def show
     @url = Url.search_for(params[:hash_code])		
   end
@@ -8,7 +12,7 @@ class UrlsController < ApplicationController
   end
 
   def create
-    hash = rand(1000012312)
+    hash = rand(100001232)
     @url = Url.new
     @url.link = params[:link]
     @url.hash_code = hash
@@ -21,7 +25,6 @@ class UrlsController < ApplicationController
   end
 
   def preview
-
   	@url = Url.get_link(params[:link])
   end
 end
