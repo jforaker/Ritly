@@ -1,8 +1,18 @@
+<% if @url.errors.any? %>
+
+      <ul>
+      <% @url.errors.full_messages.each do |msg| %>
+        <li style="color: #C0392B;"><%= msg %></li>
+      <% end %>
+      </ul>
+  <% end %>
+
 <%= form_tag(controller: "urls", action: "create", method: "post") do  %>
-    <%= label_tag(:link, "link:") %>
-    <%= text_field_tag(:link) %><br>
-    <%= submit_tag("create link")  %>
+    <%= text_field_tag(:link, nil, :class => 'form-control input-hg flat', :placeholder => 'www.something.com')  %><br>
+    <p></p>
+    <%= submit_tag("create link",  :class => "btn btn-hg btn-block btn-primary")  %>
 <% end %>
+
 
 <!-- problem before was by default the action was "new", sending it to the wong method in the controller,
 had to explicitly tell the form to route it to "create" method -->
