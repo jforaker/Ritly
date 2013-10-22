@@ -1,9 +1,8 @@
 <% if @url.errors.any? %>
-
       <ul>
-      <% @url.errors.full_messages.each do |msg| %>
-        <li style="color: #C0392B;"><%= msg %></li>
-      <% end %>
+          <% @url.errors.full_messages.each do |msg| %>
+                <li style="color: #C0392B;"><%= msg %></li>
+          <% end %>
       </ul>
   <% end %>
 
