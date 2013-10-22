@@ -639,6 +639,10 @@ $jumbotron-heading-color:        inherit !default;
   line-height: ($line-height-base * 1.5);
   color: $jumbotron-color;
   background-color: $jumbotron-bg;
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  top: 20px;
 
   h1 {
     line-height: 1;
