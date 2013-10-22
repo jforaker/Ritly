@@ -1,5 +1,5 @@
 class UrlsController < ApplicationController
-  
+
 before_filter :authenticate_user!
 
 
@@ -26,5 +26,6 @@ before_filter :authenticate_user!
 
   def preview
   	@url = Url.get_link(params[:link])
+    redirect_to "http://" + @url.last.link
   end
 end
