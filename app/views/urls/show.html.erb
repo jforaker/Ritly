@@ -1,8 +1,8 @@
 <div class="jumbotron">
 
 	<% @url.each do |x| %>
-		<h1>Your code is: <%= x.hash_code %></h1>
-		<h3> Go to <a href="/<%= x.hash_code %>/preview">localhost:3000/<%= x.hash_code %>/preview</a> to visit your URL.</h3>
+		<blockquote> <h3>Your code for <%= x.link %> is: <%= x.hash_code %></h3></blockquote> 
+		<h4> Go to <a href="/<%= x.hash_code %>/preview">localhost:3000/<%= x.hash_code %>/preview</a> to visit your URL.</h4>
 	<% end %>
 </div>
 
