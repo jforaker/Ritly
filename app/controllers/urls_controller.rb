@@ -1,7 +1,6 @@
 class UrlsController < ApplicationController
 
-before_filter :authenticate_user!
-
+  before_filter :authenticate_user!
 
   def show
     @url = Url.search_for(params[:hash_code])		
