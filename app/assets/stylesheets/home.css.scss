@@ -671,7 +671,14 @@ $jumbotron-heading-color:        inherit !default;
   }
 }
 
-
+.navbar-right{
+  position: absolute;
+  right: 0px;
+  margin-top: 0;
+}
+A, .btn{
+  cursor: pointer;
+}
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
 
@@ -1935,7 +1942,7 @@ fieldset[disabled] .btn-link:hover, .btn-link[disabled]:focus, fieldset[disabled
           display: inline-block;
           font-weight: 700;
           font-size: 15px;
-          line-height: 28px;
+          //line-height: 28px;
           padding: 22px 20px;
           text-shadow: none;
           -webkit-transition: background-color .25s, color .25s, border-bottom-color .25s;
@@ -2115,6 +2122,7 @@ fieldset[disabled] .btn-link:hover, .btn-link[disabled]:focus, fieldset[disabled
       }
     }
     &.navbar-right {
+      margin-top: 0 !important;
       .dropdown-menu {
         left: -100%;
         margin-left: 17px;
