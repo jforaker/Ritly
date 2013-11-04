@@ -3,18 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="78a68f27-f229-46a0-ab19-5bcd8b200589" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/urls/create.html.erb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/urls/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/urls/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/urls/new.html.erb" afterPath="$PROJECT_DIR$/app/views/urls/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/urls/show.html.erb" afterPath="$PROJECT_DIR$/app/views/urls/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/url.rb" afterPath="$PROJECT_DIR$/app/models/url.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/urls_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/urls_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="ritly.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383601684166" ignored="false" />
     <file path="/Gemfile" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383601857447" ignored="false" />
+    <file path="/.gitignore" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383601894313" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +29,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="35" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.589372">
+            <state line="42" column="35" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="7" selection-start="463" selection-end="463" vertical-scroll-proportion="0.41062802">
               <folding />
             </state>
           </provider>
@@ -62,6 +66,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -381,7 +386,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="35" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.589372">
+        <state line="42" column="35" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="7" selection-start="463" selection-end="463" vertical-scroll-proportion="0.41062802">
           <folding />
         </state>
       </provider>
