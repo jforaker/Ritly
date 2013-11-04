@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="78a68f27-f229-46a0-ab19-5bcd8b200589" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/urls/create.html.erb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/url.rb" afterPath="$PROJECT_DIR$/app/models/url.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/urls_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/urls_controller.rb" />
     </list>
     <ignored path="ritly.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,19 +50,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="urls_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/urls_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="22" selection-start="300" selection-end="306" vertical-scroll-proportion="0.0">
+            <state line="12" column="24" selection-start="308" selection-end="308" vertical-scroll-proportion="0.30100334">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="url.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="url.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/url.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="33" selection-start="622" selection-end="622" vertical-scroll-proportion="0.4013378">
+            <state line="16" column="33" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -145,8 +145,8 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/views/urls/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/urls_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/url.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/urls_controller.rb" />
       </list>
     </option>
   </component>
@@ -696,16 +696,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/urls_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/url.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="22" selection-start="300" selection-end="306" vertical-scroll-proportion="0.0">
+        <state line="16" column="33" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/url.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/urls_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="33" selection-start="622" selection-end="622" vertical-scroll-proportion="0.4013378">
+        <state line="12" column="24" selection-start="308" selection-end="308" vertical-scroll-proportion="0.30100334">
           <folding />
         </state>
       </provider>
