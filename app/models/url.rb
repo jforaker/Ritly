@@ -14,7 +14,9 @@ class Url < ActiveRecord::Base
   	validates_format_of :link, with: /\./, :on => :create, :message => "is not a valid url (should include '.')" 
 
 	def self.search_for(query)
-		where('hash_code LIKE :query', query: "#{query}")
+    query = query.to_s.slice(0..5)
+
+    where('hash_code LIKE :query', query: "#{query}")
 	end
 
 	def self.get_link(query)

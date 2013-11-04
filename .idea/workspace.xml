@@ -12,6 +12,7 @@
     <file path="/.gitignore" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383601894313" ignored="false" />
     <file path="/production.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383605624706" ignored="false" />
     <file path="/urls_controller.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383607681667" ignored="false" />
+    <file path="/url.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383608188013" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,7 @@
       <file leaf-file-name="url.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/url.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="38" selection-start="709" selection-end="709" vertical-scroll-proportion="0.50167227">
+            <state line="17" column="0" selection-start="624" selection-end="624" vertical-scroll-proportion="0.4264214">
               <folding />
             </state>
           </provider>
@@ -704,7 +705,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/url.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="38" selection-start="709" selection-end="709" vertical-scroll-proportion="0.50167227">
+        <state line="17" column="0" selection-start="624" selection-end="624" vertical-scroll-proportion="0.4264214">
           <folding />
         </state>
       </provider>
