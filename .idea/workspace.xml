@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="78a68f27-f229-46a0-ab19-5bcd8b200589" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/urls/create.html.erb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/urls/show.html.erb" afterPath="$PROJECT_DIR$/app/views/urls/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/urls_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/urls_controller.rb" />
     </list>
     <ignored path="ritly.iws" />
@@ -12,6 +11,7 @@
     <file path="/Gemfile" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383601857447" ignored="false" />
     <file path="/.gitignore" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383601894313" ignored="false" />
     <file path="/production.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383605624706" ignored="false" />
+    <file path="/urls_controller.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383607681667" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,19 +49,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/urls/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="280" selection-end="280" vertical-scroll-proportion="0.10695187">
+            <state line="4" column="0" selection-start="280" selection-end="280" vertical-scroll-proportion="-2.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="urls_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/urls_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="22" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
+            <state line="12" column="24" selection-start="308" selection-end="308" vertical-scroll-proportion="0.30100334">
               <folding />
             </state>
           </provider>
@@ -143,8 +143,8 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/urls_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/urls/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/urls_controller.rb" />
       </list>
     </option>
   </component>
@@ -662,13 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/urls_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="22" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -678,7 +671,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/urls/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="280" selection-end="280" vertical-scroll-proportion="0.10695187">
+        <state line="4" column="0" selection-start="280" selection-end="280" vertical-scroll-proportion="-2.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/urls_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="24" selection-start="308" selection-end="308" vertical-scroll-proportion="0.30100334">
           <folding />
         </state>
       </provider>
