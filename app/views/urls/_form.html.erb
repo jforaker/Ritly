@@ -1,10 +1,12 @@
 <% if @url.errors.any? %>
-      <ul>
-          <% @url.errors.full_messages.each do |msg| %>
-                <li style="color: #C0392B;"><%= msg %></li>
-          <% end %>
-      </ul>
-  <% end %>
+	<ul>
+	  <% @url.errors.full_messages.each do |msg| %>
+	        <li style="color: #C0392B;"><%= msg %></li>
+	  <% end %>
+	</ul>
+<% end %>
+
+<!-- ###  explicitly tell the form to route it to "create" method  ### -->
 
 <%= form_tag(controller: "urls", action: "create", method: "post") do  %>
     <%= text_field_tag(:link, nil, :class => 'form-control input-hg flat', :placeholder => 'www.something.com')  %><br>
@@ -13,5 +15,3 @@
 <% end %>
 
 
-<!-- problem before was by default the action was "new", sending it to the wong method in the controller,
-had to explicitly tell the form to route it to "create" method -->

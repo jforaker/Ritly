@@ -8,9 +8,9 @@ class UrlsController < ApplicationController
 
   def create
     # Url(id: integer, link: string, hash_code: integer, created_at: datetime, updated_at: datetime)
-    hash = rand(8349862359)
     @url = Url.new
     @url.link = params[:link]
+    hash = rand(8349862359)
     @url.hash_code = hash
     if @url.save
       redirect_to "/#{@url.hash_code}"  #get '/:hash_code', to: 'urls#show'

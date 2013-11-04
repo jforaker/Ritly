@@ -38,6 +38,12 @@ end
 
 group :development do
   gem 'meta_request'
+  gem 'sqlite3'
+
+end
+
+group :production do
+  gem 'pg'
 end
 
 # Use ActiveModel has_secure_password

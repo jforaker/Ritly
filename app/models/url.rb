@@ -8,9 +8,10 @@ class Url < ActiveRecord::Base
 	    too_short: "link must be at least %{count} letters",
 	    too_long: "link should have at most %{count} letters"
 	}
+	#^
 
   	validates_format_of :link, with: /[www]./, :on => :create, :message => "is not a valid url (should include 'www')" 
-  	validates_format_of :link, with: /./, :on => :create, :message => "is not a valid url (should include '.')" 
+  	validates_format_of :link, with: /\./, :on => :create, :message => "is not a valid url (should include '.')" 
 
 	def self.search_for(query)
 		where('hash_code LIKE :query', query: "%#{query}%")
