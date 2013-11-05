@@ -10,7 +10,7 @@ class UrlsController < ApplicationController
     # Url(id: integer, link: string, hash_code: integer, created_at: datetime, updated_at: datetime)
     @url = Url.new
     @url.link = params[:link]
-    hash = rand(123)
+    hash = rand(123456)
     @url.hash_code = hash
     if @url.save
       redirect_to "/#{@url.hash_code}"  #get '/:hash_code', to: 'urls#show'
@@ -20,9 +20,9 @@ class UrlsController < ApplicationController
   end
 
   def show
-    new_hash =  (params[:hash_code]).to_s.slice(0..3)
 
-    @url = Url.search_for(new_hash)
+
+    @url = Url.search_for(params[:hash_code])
   end
 
   def preview

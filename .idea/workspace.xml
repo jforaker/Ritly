@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="78a68f27-f229-46a0-ab19-5bcd8b200589" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/urls/create.html.erb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/url.rb" afterPath="$PROJECT_DIR$/app/models/url.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/urls_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/urls_controller.rb" />
     </list>
     <ignored path="ritly.iws" />
@@ -54,7 +53,7 @@
       <file leaf-file-name="urls_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/urls_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="19" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
+            <state line="23" column="51" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -146,8 +145,8 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/views/urls/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/urls_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/url.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/urls_controller.rb" />
       </list>
     </option>
   </component>
@@ -699,7 +698,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/urls_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="19" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
+        <state line="23" column="51" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
