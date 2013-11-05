@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="78a68f27-f229-46a0-ab19-5bcd8b200589" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/urls/create.html.erb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/url.rb" afterPath="$PROJECT_DIR$/app/models/url.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/urls_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/urls_controller.rb" />
     </list>
     <ignored path="ritly.iws" />
@@ -12,7 +11,7 @@
     <file path="/Gemfile" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383601857447" ignored="false" />
     <file path="/.gitignore" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383601894313" ignored="false" />
     <file path="/production.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383605624706" ignored="false" />
-    <file path="/urls_controller.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383607681667" ignored="false" />
+    <file path="/urls_controller.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383612898894" ignored="false" />
     <file path="/url.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383608188013" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,19 +50,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="urls_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/urls_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="18" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
+            <state line="24" column="34" selection-start="568" selection-end="568" vertical-scroll-proportion="0.6020067">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="url.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="url.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/url.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="33" selection-start="622" selection-end="622" vertical-scroll-proportion="0.4013378">
+            <state line="16" column="26" selection-start="589" selection-end="624" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -146,8 +145,8 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/views/urls/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/urls_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/url.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/urls_controller.rb" />
       </list>
     </option>
   </component>
@@ -697,16 +696,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/urls_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/url.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="18" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
+        <state line="16" column="26" selection-start="589" selection-end="624" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/url.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/urls_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="33" selection-start="622" selection-end="622" vertical-scroll-proportion="0.4013378">
+        <state line="24" column="34" selection-start="568" selection-end="568" vertical-scroll-proportion="0.6020067">
           <folding />
         </state>
       </provider>

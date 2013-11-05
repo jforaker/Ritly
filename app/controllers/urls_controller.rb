@@ -20,7 +20,9 @@ class UrlsController < ApplicationController
   end
 
   def show
-    @url = Url.search_for(params[:hash_code])   
+    new_hash =  (params[:hash_code]).to_s.slice(0..3)
+
+    @url = Url.search_for(new_hash)
   end
 
   def preview
