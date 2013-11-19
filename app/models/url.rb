@@ -25,7 +25,7 @@ class Url < ActiveRecord::Base
 
   def self.get_link(query)
              if query 
-              find(:all, :conditions => ['LOWER(link) LIKE LOWER(?)',  "%#{query}%"])
+              find(:all, :conditions => ['LOWER(link) = LOWER(?)',  "%#{query}%"])
               else
                 find(:all)
               end
