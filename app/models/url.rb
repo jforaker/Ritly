@@ -25,9 +25,19 @@ class Url < ActiveRecord::Base
 
   def self.get_link(query)
              if query 
-              find(:all, :conditions => ['link LIKE :query', query: "%#{query}%"])
+              find(:all, :conditions => ['LOWER(link) LIKE LOWER(?)',  "%#{query}%"])
               else
                 find(:all)
               end
   end
+
+  # def self.search(search)
+  #            if search 
+  #             find(:all, :conditions => ["LOWER(name) LIKE LOWER(?) OR LOWER(city) LIKE LOWER(?) OR LOWER(address) LIKE LOWER(?) 
+  #               OR (venue_type = CASE WHEN 'pub' = ? THEN 1 WHEN 'nattklubb' = ? THEN 2 END)", 
+  #               "%#{search}%", "%#{search}%", "%#{search}%", "#{search.downcase}", "#{search.downcase}"])
+  #             else
+  #               find(:all)
+  #             end
+  # end
 end
