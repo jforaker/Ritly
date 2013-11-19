@@ -1,6 +1,8 @@
-== Ritly
+= Ritly
 
-A bitly clone in rails
+==A bitly clone in rails
+
+==http://ritly-app.herokuapp.com
 
 
   Ritly::Application.routes.draw do
