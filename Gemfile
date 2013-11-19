@@ -8,7 +8,6 @@ gem 'rails', '4.0.0'
 
 gem 'devise'
 
-  gem 'sqlite3'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -38,7 +37,7 @@ end
 
 group :development do
   gem 'meta_request'
-  gem 'pg'
+  gem 'sqlite3'
 
 end
 
