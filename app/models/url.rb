@@ -16,7 +16,7 @@ class Url < ActiveRecord::Base
 	def self.search_for(query)
     #query = query.to_s.slice(0..3)
 
-    where('hash_code LIKE :query', query: "#{query}")
+    where('hash_code = :query', query: "#{query}")
 	end
 
 	# def self.get_link(query)
