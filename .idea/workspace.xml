@@ -3,16 +3,68 @@
   <component name="ChangeListManager">
     <list default="true" id="78a68f27-f229-46a0-ab19-5bcd8b200589" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/urls/create.html.erb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/urls_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/urls_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/urls/show.html.erb" afterPath="$PROJECT_DIR$/app/views/urls/show.html.erb" />
     </list>
     <ignored path="ritly.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383601684166" ignored="false" />
-    <file path="/Gemfile" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383601857447" ignored="false" />
+    <file path="/Gemfile" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383697346563" ignored="false" />
     <file path="/.gitignore" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383601894313" ignored="false" />
     <file path="/production.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383605624706" ignored="false" />
     <file path="/urls_controller.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383612898894" ignored="false" />
     <file path="/url.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383608188013" ignored="false" />
+    <file path="/show.html.erb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383679614858" ignored="false" />
+    <file path="$PROJECT_DIR$/../Kickin_it/app/assets/javascripts/misc.js" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383715112429" ignored="false" />
+    <file path="$PROJECT_DIR$/../Kickin_it/app/views/kicks/_form.html.erb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383679275402" ignored="false" />
+    <file path="/_form.html.erb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383669060138" ignored="false" />
+    <file path="$PROJECT_DIR$/../Kickin_it/config/routes.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383663221401" ignored="false" />
+    <file path="/routes.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383621368716" ignored="false" />
+    <file path="/misc.js" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383712483368" ignored="false" />
+    <file path="$PROJECT_DIR$/../Kickin_it/db/schema.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383700994689" ignored="false" />
+    <file path="$PROJECT_DIR$/../Kickin_it/app/controllers/kicks_controller.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383679680690" ignored="false" />
+    <file path="/kicks_controller.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383679680304" ignored="false" />
+    <file path="$PROJECT_DIR$/../Kickin_it/app/views/kicks/show.html.erb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383702845496" ignored="false" />
+    <file path="$PROJECT_DIR$/../Kickin_it/app/views/home/index.html.erb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383678860570" ignored="false" />
+    <file path="/index.html.erb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383678848759" ignored="false" />
+    <file path="$PROJECT_DIR$/../Kickin_it/app/views/users/registrations/new.html.erb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383628961126" ignored="false" />
+    <file path="/new.html.erb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383628959677" ignored="false" />
+    <file path="$PROJECT_DIR$/../Kickin_it/app/models/user.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383694718268" ignored="false" />
+    <file path="/user.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383694698376" ignored="false" />
+    <file path="$PROJECT_DIR$/../Kickin_it/app/controllers/application_controller.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383628401267" ignored="false" />
+    <file path="/application_controller.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383628399746" ignored="false" />
+    <file path="$PROJECT_DIR$/../Kickin_it/app/controllers/user_controller.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383694944546" ignored="false" />
+    <file path="/user_controller.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383694756612" ignored="false" />
+    <file path="$PROJECT_DIR$/../Kickin_it/app/views/user/show.html.erb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383662172394" ignored="false" />
+    <file path="$PROJECT_DIR$/../Kickin_it/app/models/rsvp.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383662556848" ignored="false" />
+    <file path="/rsvp.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383662553716" ignored="false" />
+    <file path="$PROJECT_DIR$/../Kickin_it/app/models/kick.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383662585030" ignored="false" />
+    <file path="/kick.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383662582454" ignored="false" />
+    <file path="$PROJECT_DIR$/../Kickin_it/db/migrate/20131105145102_drop_taggingstable.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383663101071" ignored="false" />
+    <file path="/20131105145102_drop_taggingstable.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383663101071" ignored="false" />
+    <file path="$PROJECT_DIR$/../Kickin_it/db/migrate/20131105145225_drop_tags_table.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383663155195" ignored="false" />
+    <file path="/20131105145225_drop_tags_table.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383663155195" ignored="false" />
+    <file path="$PROJECT_DIR$/../Kickin_it/app/views/home/_sidebar.html.erb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383663294383" ignored="false" />
+    <file path="/_sidebar.html.erb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383663294067" ignored="false" />
+    <file path="$PROJECT_DIR$/../Kickin_it/app/views/user/edit.html.erb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383695342943" ignored="false" />
+    <file path="/edit.html.erb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383715274008" ignored="false" />
+    <file path="$PROJECT_DIR$/../Kickin_it/app/assets/javascripts/map.js" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383715035514" ignored="false" />
+    <file path="/map.js" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383714762775" ignored="false" />
+    <file path="$PROJECT_DIR$/../Kickin_it/app/assets/javascripts/animate.js" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383671724881" ignored="false" />
+    <file path="$PROJECT_DIR$/../Kickin_it/app/views/kicks/edit.html.erb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383715275632" ignored="false" />
+    <file path="$PROJECT_DIR$/../Kickin_it/app/views/layouts/application.html.erb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383702705403" ignored="false" />
+    <file path="$PROJECT_DIR$/../Kickin_it/Gemfile" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383704960444" ignored="false" />
+    <file path="$PROJECT_DIR$/../Kickin_it/app/views/kicks/mykicks.html.erb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383696830827" ignored="false" />
+    <file path="/mykicks.html.erb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383696830084" ignored="false" />
+    <file path="/database.yml" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383698284634" ignored="false" />
+    <file path="$PROJECT_DIR$/../Kickin_it/config/database.yml" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383698284634" ignored="false" />
+    <file path="$PROJECT_DIR$/../Kickin_it/db/migrate/20131020203327_remove_latitude_from_kicks_and_remove_kicks_from_kicks_and_remove_gmaps_from_kicks.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383699778470" ignored="false" />
+    <file path="$PROJECT_DIR$/../Kickin_it/db/migrate/20131104023902_remove_time_from_kicks.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383700384013" ignored="false" />
+    <file path="/20131104023902_remove_time_from_kicks.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383700719666" ignored="false" />
+    <file path="$PROJECT_DIR$/../Kickin_it/db/migrate/20131104023902_add_time_to_kicks.rb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383700719666" ignored="false" />
+    <file path="/application.html.erb" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383702580746" ignored="false" />
+    <file path="$PROJECT_DIR$/../Kickin_it/app/assets/javascripts/application.js" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383702227105" ignored="false" />
+    <file path="$PROJECT_DIR$/../Kickin_it/.travis.yml" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383758540340" ignored="false" />
+    <file path="/.travis.yml" changelist="78a68f27-f229-46a0-ab19-5bcd8b200589" time="1383758020312" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +96,7 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/urls/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="280" selection-end="280" vertical-scroll-proportion="-2.5">
+            <state line="1" column="9" selection-start="24" selection-end="48" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
@@ -53,7 +105,7 @@
       <file leaf-file-name="urls_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/urls_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="51" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
+            <state line="23" column="0" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -62,7 +114,7 @@
       <file leaf-file-name="url.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/url.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="65" selection-start="765" selection-end="765" vertical-scroll-proportion="0.5769231">
+            <state line="23" column="5" selection-start="765" selection-end="765" vertical-scroll-proportion="0.5769231">
               <folding />
             </state>
           </provider>
@@ -144,9 +196,9 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
-        <option value="$PROJECT_DIR$/app/views/urls/show.html.erb" />
         <option value="$PROJECT_DIR$/app/models/url.rb" />
         <option value="$PROJECT_DIR$/app/controllers/urls_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/urls/show.html.erb" />
       </list>
     </option>
   </component>
@@ -371,6 +423,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager" selected="Rails.Development: ritly">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -543,7 +596,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="38" width="1287" height="746" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973805" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -689,23 +742,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/urls/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/urls_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="280" selection-end="280" vertical-scroll-proportion="-2.5">
+        <state line="23" column="0" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/urls_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/urls/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="51" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
+        <state line="1" column="9" selection-start="24" selection-end="48" vertical-scroll-proportion="-0.625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/url.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="65" selection-start="765" selection-end="765" vertical-scroll-proportion="0.5769231">
+        <state line="23" column="5" selection-start="765" selection-end="765" vertical-scroll-proportion="0.5769231">
           <folding />
         </state>
       </provider>

@@ -19,7 +19,15 @@ class Url < ActiveRecord::Base
     where('hash_code LIKE :query', query: "#{query}")
 	end
 
-	def self.get_link(query)
-		where('link LIKE :query', query: "%#{query}%")
-	end
+	# def self.get_link(query)
+	# 	where('link LIKE :query', query: "%#{query}%")
+	# end
+
+  def self.get_link(query)
+             if query 
+              find(:all, :conditions => ['link LIKE :query', query: "%#{query}%"])
+              else
+                find(:all)
+              end
+  end
 end
